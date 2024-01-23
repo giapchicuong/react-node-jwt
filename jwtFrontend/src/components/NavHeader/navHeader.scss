@@ -1,0 +1,47 @@
+.nav-header {
+  .bg-header {
+    background-color: #20232a;
+  }
+  .navbar-brand {
+    color: #61dafb;
+    .brand-name {
+      color: #61dafb;
+    }
+    img {
+      animation: App-logo-spin infinite 20s linear;
+      object-fit: contain;
+    }
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .navbar-nav {
+    a,
+    .nav-link {
+      color: white !important;
+      &:hover {
+        color: #61dafb !important;
+      }
+    }
+    .active {
+      color: #61dafb !important;
+    }
+    .dropdown-menu {
+      margin-top: 8px;
+    }
+    .dropdown-item {
+      color: #20232a !important;
+      &:hover {
+        color: red !important;
+      }
+      &:active {
+        background-color: #fff !important;
+      }
+    }
+  }
+}
